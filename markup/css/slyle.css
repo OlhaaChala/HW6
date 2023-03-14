@@ -1,15 +1,50 @@
 * {
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: #fff;
+}
+
+ul {
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.card1 {
-width: 130px;
-height: 130px;
+li {
+    background-color: #fff4f4;
+    display: inline-block;
+    width: calc((100%/3)-30px);
+    margin: 15px;
+    border: solid 1px #f6dce5;
 }
 
 .images {
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+}
+
+img {
     width: auto;
     height: 100%;
+}
+
+h2 {
+    width: 200px;
+    height: 22px;
+    margin-top: 10;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    background-color: #ffdcdc;
+}
+
+p {
+    width: 200px;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #ffdcdc;
 }
