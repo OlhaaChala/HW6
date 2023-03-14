@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.card1 {
+width: 130px;
+height: 130px;
+}
+
+.images {
+    width: auto;
+    height: 100%;
+}
